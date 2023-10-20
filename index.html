@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2rem;
+        margin-right: 2rem;
+      "
+    >
+      <div style="display: flex; align-items: center">
+        <h3>Current Time:</h1>
+        <h3 id="time" style="padding-left: 0.5rem; font-family: monospace">
+          12:00:00
+        </h1>
+        <form style="padding-left: 2rem">
+          <select></select>
+        </form>
+      </div>
+      <div style="display: flex; gap: 1rem;">
+        <p style="display: inline;">cameras from:</p>
+        <img
+          style="height: 50px;"
+          src="https://trafficwatchni.com/twni/images/common/logo-twni.png"
+          alt="twni logo"
+        />
+      </div>
+    </div>
+    <img id="cam" src="https://cctv.trafficwatchni.com/3260.jpg" alt="cam" />
+  </body>
+</html>
