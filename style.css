@@ -9,3 +9,35 @@ body {
   object-fit: contain;
   height: 90vh;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.time-select {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .time-select {
+    flex-direction: column;
+  }
+
+  select {
+    max-width: 80vw;
+  }
+
+  h3 {
+    margin: 0.25rem;
+  }
+}
